@@ -1,0 +1,128 @@
+body {
+    text-align: center;
+  }
+  
+  button {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background: white;
+    border-radius: 20%;
+    padding: 0;
+  }
+  
+  .game {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 20px;
+    width: 70%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 50px;
+    background: url(img/background.png) center/cover no-repeat;
+  }
+  
+  header {
+    display: flex;
+    padding: 8px;
+  }
+  
+  .game__button {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    background-color: wheat;
+    border: 3px solid black;
+    transition: transfrom 300ms ease-in;
+  }
+  
+  .game__button:hover {
+    transform: scale(1.1);
+  }
+  
+  .game__timer {
+    width: 100px;
+    margin: auto;
+    margin-top: 8px;
+    padding: 0 20px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 32px;
+    border: 3px solid black;
+  }
+  
+  .game__score {
+    display: block;
+    width: 50px;
+    height: 50px;
+    font-size: 46px;
+    margin-top: 4px;
+    background-color: white;
+    color: tomato;
+    border-radius: 50%;
+    border: 3px solid black;
+  }
+  
+  .game__field {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+  }
+  
+  .pop-up {
+    border-radius: 20px;
+    width: 400px;
+    height: 124px;
+    margin: auto;
+    background-color: #00000090;
+    color: white;
+    transform: translateY(-150%);
+    display: flex;
+    justify-content: center;
+}
+.pop-up > header {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .pop-up--hide {
+    display: none;
+  }
+  
+  .pop-up__refresh {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    background-color: wheat;
+    border: 2px solid black;
+    transition: transfrom 300ms ease-in;
+  }
+  
+  .pop-up__refresh:hover {
+    transform: scale(1.1);
+  }
+  
+  .pop-up__message {
+    display: block;
+    
+    font-size: 38px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .codingWombat,
+  .aardbark {
+  width: 100px;
+  }
+
+  .codingWombat:hover,
+  .aardbark:hover {
+    transform: scale(1.1);
+  }
+  
